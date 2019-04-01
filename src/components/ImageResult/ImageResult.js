@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./ImageResult.css";
 const ImageResult = ({ imageURL, box }) => {
   return (
     <div className="center ma">
@@ -12,7 +12,7 @@ const ImageResult = ({ imageURL, box }) => {
           height="auto"
         />
         <div
-          className="boundary-box"
+          className="bounding-box"
           style={{
             top: box.topRow,
             right: box.rightCol,
